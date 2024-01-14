@@ -1,0 +1,95 @@
+
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing:border-box ;
+        font-family: "Poppins", sans-serif;
+    
+    
+    } 
+   
+    body{
+        min-height: 100vh;
+        background: url(bgc.jpg) no-repeat ;
+        background-size: cover ;
+        background-position: center;
+
+    }
+    .Welcome{
+        font-size: 32px;
+        color: white;
+        text-decoration: none;
+        font-weight: 700;
+        left: 30%;
+        right: auto;
+        margin-left: 0;
+        margin-right: 20%;
+
+    }
+.header{
+    position:fixed ;
+    top: auto;
+    left: auto;
+    top: auto;
+    bottom: auto;
+    width: 100%;
+    padding: 20px 100px;
+    display: flex;
+    justify-content:space-between ;
+    align-items:center  ;
+    z-index: 100;
+    background-color: black;
+
+}
+.navbar a{
+    font-size: 20px;
+    color: white;
+    font-weight: 500;
+    text-decoration:underline;
+    left: auto;
+    right: auto;
+    margin: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', 'Arial', 'sans-serif';
+    cursor: pointer;
+    
+
+}
+
+.navbar a  ::before{
+    content: '';
+    position:absolute ;
+    top: 100%;
+    left: 0;
+    width: 0;
+    height:2px;
+    background: #fff;
+    
+    
+    
+    
+
+}
+.navbar a ::after{
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: black;
+    transition: all 0.35s;
+    border-radius: 4px;
+    
+
+
+}
+
+.navbar a:hover{
+    background-color: grey;
+}
+
+.navbar a .bar{
+    width: 25;
+
+}
+

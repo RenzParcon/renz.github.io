@@ -1,0 +1,43 @@
+body{
+    background:url(pumalogo.png) no-repeat;
+    background-position: center;
+    min-height: 100vh; 
+    background-size: cover; 
+    left: auto;
+    right: auto;
+    top: auto;
+    bottom: auto;
+    
+      
+    
+
+}
+.desc{
+    color: aliceblue;
+}
+.me{
+    margin-left:auto;
+    margin-right:auto;
+    text-align: center;
+    
+
+}
+#myBtn{
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 18px;
+    cursor: pointer;
+  
+
+ }
+ #myBtn:hover{
+    background-color: grey;
+    
+ }
